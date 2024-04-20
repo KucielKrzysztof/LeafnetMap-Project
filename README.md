@@ -1,5 +1,7 @@
 # 5. PWA exercise
 
+Exercise no. 5
+
 ## Browser Compatibility
 
 - Chrome 67 (Windows and Android)
