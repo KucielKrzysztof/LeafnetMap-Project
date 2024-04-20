@@ -25,7 +25,7 @@
   <meta name="msapplication-TileColor" content="#FFFFFF">
 </head>
 
-<body class="fullscreen " data-bs-theme="dark">
+<body class="fullscreen">
   <div class="container d-flex flex-column align-items-center justify-content-center ">
 
     <div class="row">
@@ -42,13 +42,10 @@
         <div class="row " id="map"></div>
       </div>
     </div>
+    <div><button onclick="showMap()" class="btn btn-dark mt-1">Show Map</button></div>
 
-
-    <div class="d-grid gap-2 d-md-block mt-2">
-      <button onclick="showMap()" class=" btn p-3 btn-lg btn-block btn-light mt-1">Show
-        Map</button>
-
-      <button onClick="vibrate()" class="btn p-3 btn-lg btn-block btn-light mt-1">SOS</button>
+    <div class="row">
+      <div class="col-sm"><button onClick="vibrate()" class="btn btn-dark mt-1">SOS</button></div>
     </div>
   </div>
   <script src="js/main.js"></script>
